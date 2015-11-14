@@ -1,0 +1,34 @@
+@import settings
+
+#home
+  .introduction
+    text-align: center
+    font-size: 24px
+    font-weight: bold
+    font-family: $font-stack
+    position: relative
+
+  .introduction__welcome-photo
+    background: image-url('welcome_photo.png') no-repeat
+    background-size: cover
+    background-position: center 30%
+    width: 100%
+    height: 80%
+
+  .introduction__welcome_text
+    text-align: center
+    position: absolute
+    top: 50%
+    width: 100%
+    margin: 0 auto
+    font-size: 56px
+    -webkit-transform: translate(0%, -50%)
+    -ms-transform: translate(0%, -50%)
+    transform: translate(0%, -50%)
+
+  .introduction__brief_biography
+    margin: 0
+    font-size: 24px
+    font-weight: normal
+    height: 20vh
+    vertical-align: middle
